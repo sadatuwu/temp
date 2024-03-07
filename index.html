@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Addition</title>
+</head>
+<body>
+
+<h2>Addition</h2>
+
+<input type="number" id="num1" placeholder="Enter first number" step="1">
++
+<input type="number" id="num2" placeholder="Enter second number" step="1">
+<button onclick="showHello()">Equal</button>
+
+<p id="result"></p>
+
+<script>
+function showHello() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var result = "Hello World"; // You can customize this message as needed
+    document.getElementById("result").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
